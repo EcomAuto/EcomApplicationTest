@@ -1,0 +1,4 @@
+configuration\ConfigReader.class
+driver\DriverFactory.class
+pageClass\CreateAccountPage.class
+services\CreateAccountService.class
