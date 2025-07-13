@@ -1,6 +1,7 @@
 base\BaseTest.class
 utils\AccountDataProvider.class
 utils\DataGenerator.class
-tests\CreateAccountTest.class
+assertions\AssertUtils.class
+testCases\CreateAccountTest.class
 utils\ScreenshotUtil.class
 listeners\ScreenshotListener.class

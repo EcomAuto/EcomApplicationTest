@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Ecommerce_Account_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Ecommerce Account Suite</span>
+              <span class="suite-name border-failed">Ecommerce Account Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Ecommerce_Account_Suite" class="hide-methods failed suite-Ecommerce_Account_Suite"> (hide)</a> <!-- hide-methods failed suite-Ecommerce_Account_Suite -->
+                      <a href="#" panel-name="suite-Ecommerce_Account_Suite" class="show-methods failed suite-Ecommerce_Account_Suite"> (show)</a> <!-- show-methods failed suite-Ecommerce_Account_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Ecommerce_Account_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com), ...)">testNegativeAccountCreation(Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com), ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Ecommerce_Account_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +117,32 @@
                     <div class="method-list-content passed suite-Ecommerce_Account_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="verifyAccountCreation(John, Doe, john.doe3d6f6@test.com, Pass@12345)">verifyAccountCreation(John, Doe, john.doe3d6f6@test.com, Pass@12345)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account With Blank Spaces :         (    ), [This is a required field.])">testNegativeAccountCreation(Creating Account With Blank Spaces :         (    ), [This is a required field.])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="verifyAccountCreation(Alice, Walker, alice.walkere5b66@test.com, Pass@12345)">verifyAccountCreation(Alice, Walker, alice.walkere5b66@test.com, Pass@12345)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [M...)">testNegativeAccountCreation(Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [M...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="verifyAccountCreation(Jane, Smith, jane.smithf585d@test.com, Pass@12345)">verifyAccountCreation(Jane, Smith, jane.smithf585d@test.com, Pass@12345)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account With Blank Fields :   (), [This is a required field.])">testNegativeAccountCreation(Creating Account With Blank Fields :   (), [This is a required field.])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email addr...)">testNegativeAccountCreation(Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email addr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already a...)">testNegativeAccountCreation(Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Account_Suite" title="testCases.CreateAccountTest" class="method navigator-link" hash-for-method="testNegativeAccountCreation(Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), ...)">testNegativeAccountCreation(Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Ecommerce_Account_Suite -->
@@ -128,40 +157,94 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Ecommerce_Account_Suite" class="panel Ecommerce_Account_Suite">
-          <div class="suite-Ecommerce_Account_Suite-class-passed">
+          <div class="suite-Ecommerce_Account_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.CreateAccountTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCases.CreateAccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAccountCreation(John, Doe, john.doe3d6f6@test.com, Pass@12345)">
-                  </a> <!-- verifyAccountCreation(John, Doe, john.doe3d6f6@test.com, Pass@12345) -->
-                  <span class="method-name">verifyAccountCreation</span>
-                  <span class="parameters">(John,Doe,john.doe3d6f6@test.com,Pass@12345)</span>
+                  <a name="testNegativeAccountCreation(Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com), ...)">
+                  </a> <!-- testNegativeAccountCreation(Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com), ...) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com),[Please enter the same value again.])</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected error not found: Please enter the same value again. expected [true] but found [false]
+	at assertions.AssertUtils.assertTrue(AssertUtils.java:14)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(Validate account creation)                  </em>
+(Verify error messages for invalid user registration inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_Account_Suite-class-failed -->
+          <div class="suite-Ecommerce_Account_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeAccountCreation(Creating Account With Blank Spaces :         (    ), [This is a required field.])">
+                  </a> <!-- testNegativeAccountCreation(Creating Account With Blank Spaces :         (    ), [This is a required field.]) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account With Blank Spaces :         (    ),[This is a required field.])</span>
+                  <em>
+(Verify error messages for invalid user registration inputs)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAccountCreation(Alice, Walker, alice.walkere5b66@test.com, Pass@12345)">
-                  </a> <!-- verifyAccountCreation(Alice, Walker, alice.walkere5b66@test.com, Pass@12345) -->
-                  <span class="method-name">verifyAccountCreation</span>
-                  <span class="parameters">(Alice,Walker,alice.walkere5b66@test.com,Pass@12345)</span>
+                  <a name="testNegativeAccountCreation(Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [M...)">
+                  </a> <!-- testNegativeAccountCreation(Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [M...) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com),[Minimum length of this field must be equal or greater than 8 symbols.])</span>
                   <em>
-(Validate account creation)                  </em>
+(Verify error messages for invalid user registration inputs)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAccountCreation(Jane, Smith, jane.smithf585d@test.com, Pass@12345)">
-                  </a> <!-- verifyAccountCreation(Jane, Smith, jane.smithf585d@test.com, Pass@12345) -->
-                  <span class="method-name">verifyAccountCreation</span>
-                  <span class="parameters">(Jane,Smith,jane.smithf585d@test.com,Pass@12345)</span>
+                  <a name="testNegativeAccountCreation(Creating Account With Blank Fields :   (), [This is a required field.])">
+                  </a> <!-- testNegativeAccountCreation(Creating Account With Blank Fields :   (), [This is a required field.]) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account With Blank Fields :   (),[This is a required field.])</span>
                   <em>
-(Validate account creation)                  </em>
+(Verify error messages for invalid user registration inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeAccountCreation(Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email addr...)">
+                  </a> <!-- testNegativeAccountCreation(Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email addr...) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account With In-Valid Email-Id : John Doe (invalidemail@),[Please enter a valid email address (Ex: johndoe@domain.com).])</span>
+                  <em>
+(Verify error messages for invalid user registration inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeAccountCreation(Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already a...)">
+                  </a> <!-- testNegativeAccountCreation(Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already a...) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account With Existing Account : Existing User (existing.user@test.com),[There is already an account with this email address.])</span>
+                  <em>
+(Verify error messages for invalid user registration inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeAccountCreation(Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), ...)">
+                  </a> <!-- testNegativeAccountCreation(Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), ...) -->
+                  <span class="method-name">testNegativeAccountCreation</span>
+                  <span class="parameters">(Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format),[Please enter a valid email address (Ex: johndoe@domain.com)., Minimum length of this field must be equal or greater than 8 symbols.])</span>
+                  <em>
+(Verify error messages for invalid user registration inputs)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,7 +261,11 @@
 &lt;suite name=&quot;Ecommerce Account Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Account Creation&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;testCases.CreateAccountTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testNegativeAccountCreation&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.CreateAccountTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Account Creation --&gt;
 &lt;/suite&gt; &lt;!-- Ecommerce Account Suite --&gt;
@@ -218,19 +305,35 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyAccountCreation')
-data.setCell(0, 2, 'tests.CreateAccountTest')
-data.setCell(0, 3, 70603);
+data.setCell(0, 1, 'testNegativeAccountCreation')
+data.setCell(0, 2, 'testCases.CreateAccountTest')
+data.setCell(0, 3, 28807);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAccountCreation')
-data.setCell(1, 2, 'tests.CreateAccountTest')
-data.setCell(1, 3, 52148);
+data.setCell(1, 1, 'testNegativeAccountCreation')
+data.setCell(1, 2, 'testCases.CreateAccountTest')
+data.setCell(1, 3, 24439);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyAccountCreation')
-data.setCell(2, 2, 'tests.CreateAccountTest')
-data.setCell(2, 3, 6561);
+data.setCell(2, 1, 'testNegativeAccountCreation')
+data.setCell(2, 2, 'testCases.CreateAccountTest')
+data.setCell(2, 3, 20738);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testNegativeAccountCreation')
+data.setCell(3, 2, 'testCases.CreateAccountTest')
+data.setCell(3, 3, 20441);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testNegativeAccountCreation')
+data.setCell(4, 2, 'testCases.CreateAccountTest')
+data.setCell(4, 3, 18118);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testNegativeAccountCreation')
+data.setCell(5, 2, 'testCases.CreateAccountTest')
+data.setCell(5, 3, 9352);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testNegativeAccountCreation')
+data.setCell(6, 2, 'testCases.CreateAccountTest')
+data.setCell(6, 3, 8476);
 window.suiteTableData['Ecommerce_Account_Suite']= { tableData: data, tableDiv: 'times-div-Ecommerce_Account_Suite'}
 return data;
 }
@@ -250,9 +353,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Ecommerce_Account_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.CreateAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyAccountCreation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Ecommerce_Account_Suite" class="panel">
@@ -261,42 +371,92 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.CreateAccountTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAccountCreation(John, Doe, john.doe3d6f6@test.com, Pass@12345)</span>
-                <span class="method-start">1798 ms</span>
+                <span class="method-name">testNegativeAccountCreation(Creating Account With Blank Fields :   (), [This is a required field.])</span>
+                <span class="method-start">1777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8413 ms</span>
+                <span class="method-start">11158 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">8908 ms</span>
+                <span class="method-start">14384 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAccountCreation(Jane, Smith, jane.smithf585d@test.com, Pass@12345)</span>
-                <span class="method-start">10027 ms</span>
+                <span class="method-name">testNegativeAccountCreation(Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email addr...)</span>
+                <span class="method-start">15498 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">80635 ms</span>
+                <span class="method-start">36247 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">81199 ms</span>
+                <span class="method-start">38935 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAccountCreation(Alice, Walker, alice.walkere5b66@test.com, Pass@12345)</span>
-                <span class="method-start">82403 ms</span>
+                <span class="method-name">testNegativeAccountCreation(Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [M...)</span>
+                <span class="method-start">40087 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">134554 ms</span>
+                <span class="method-start">60532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testNegativeAccountCreation(Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com), ...)</span>
+                <span class="method-start">64127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNegativeAccountCreation(Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already a...)</span>
+                <span class="method-start">96949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNegativeAccountCreation(Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), ...)</span>
+                <span class="method-start">124979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNegativeAccountCreation(Creating Account With Blank Spaces :         (    ), [This is a required field.])</span>
+                <span class="method-start">146880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155368 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

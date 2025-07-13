@@ -1,37 +1,121 @@
 package pageClass;
 
-import org.openqa.selenium.By;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import models.UserModel;
+import wait.WaitUtil;
 
 public class CreateAccountPage {
+
     private WebDriver driver;
 
     public CreateAccountPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    private final By firstName = By.id("firstname");
-    private final By lastName = By.id("lastname");
-    private final By email = By.id("email_address");
-    private final By password = By.id("password");
-    private final By confirmPassword = By.id("password-confirmation");
-    private final By createAccountBtn = By.cssSelector("button[title='Create an Account']");
-    private final By successMessage = By.cssSelector("div.message-success.success.message");
+    @FindBy(id = "firstname")
+    private WebElement firstNameInput;
 
-    public void fillForm(String fname, String lname, String emailId, String pwd) {
-        driver.findElement(firstName).sendKeys(fname);
-        driver.findElement(lastName).sendKeys(lname);
-        driver.findElement(email).sendKeys(emailId);
-        driver.findElement(password).sendKeys(pwd);
-        driver.findElement(confirmPassword).sendKeys(pwd);
+    @FindBy(id = "lastname")
+    private WebElement lastNameInput;
+
+    @FindBy(id = "email_address")
+    private WebElement emailInput;
+
+    @FindBy(id = "password")
+    private WebElement passwordInput;
+
+    @FindBy(id = "password-confirmation")
+    private WebElement confirmPasswordInput;
+
+    @FindBy(css = "button[title='Create an Account']")
+    private WebElement createAccountButton;
+
+    @FindBy(css = ".message-success div")
+    private WebElement successMessage;
+
+    @FindBy(id = "firstname-error")
+    private WebElement firstNameError;
+
+    @FindBy(id = "lastname-error")
+    private WebElement lastNameError;
+
+    @FindBy(id = "email_address-error")
+    private WebElement emailError;
+
+    @FindBy(id = "password-error")
+    private WebElement passwordError;
+
+    @FindBy(id = "password-confirmation-error")
+    private WebElement confirmPasswordError;
+
+    @FindBy(css = "div.message-error div")
+    private WebElement generalError;
+
+    public void fillAccountForm(UserModel user) {
+        WaitUtil.waitForVisibility(driver, firstNameInput, 10).sendKeys(user.getFirstName());
+        WaitUtil.waitForVisibility(driver, lastNameInput, 10).sendKeys(user.getLastName());
+        WaitUtil.waitForVisibility(driver, emailInput, 10).sendKeys(user.getEmail());
+        WaitUtil.waitForVisibility(driver, passwordInput, 10).sendKeys(user.getPassword());
+        WaitUtil.waitForVisibility(driver, confirmPasswordInput, 10).sendKeys(user.getPassword());
     }
 
     public void submitForm() {
-        driver.findElement(createAccountBtn).click();
+        WaitUtil.waitForClickable(driver, createAccountButton, 10).click();
     }
 
     public String getSuccessMessage() {
-        return driver.findElement(successMessage).getText();
+        return WaitUtil.waitForVisibility(driver, successMessage, 10).getText();
+    }
+
+    public String getFirstNameError() {
+        return getTextIfVisible(firstNameError);
+    }
+
+    public String getLastNameError() {
+        return getTextIfVisible(lastNameError);
+    }
+
+    public String getEmailError() {
+        return getTextIfVisible(emailError);
+    }
+
+    public String getPasswordError() {
+        return getTextIfVisible(passwordError);
+    }
+
+    public String getConfirmPasswordError() {
+        return getTextIfVisible(confirmPasswordError);
+    }
+
+    public String getGeneralError() {
+        return getTextIfVisible(generalError);
+    }
+
+    private String getTextIfVisible(WebElement element) {
+        try {
+            return WaitUtil.waitForVisibility(driver, element, 3).getText();  // 3s timeout for field errors
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
+    public List<String> getAllValidationErrors() {
+        List<String> errors = new ArrayList<>();
+
+        if (!getFirstNameError().isBlank()) errors.add(getFirstNameError());
+        if (!getLastNameError().isBlank()) errors.add(getLastNameError());
+        if (!getEmailError().isBlank()) errors.add(getEmailError());
+        if (!getPasswordError().isBlank()) errors.add(getPasswordError());
+        if (!getConfirmPasswordError().isBlank()) errors.add(getConfirmPasswordError());
+        if (!getGeneralError().isBlank()) errors.add(getGeneralError());
+
+        return errors;
     }
 }
-

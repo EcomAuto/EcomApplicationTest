@@ -1,4 +1,10 @@
-configuration\ConfigReader.class
 driver\DriverFactory.class
+factory\PageFactoryManager.class
 pageClass\CreateAccountPage.class
+exceptions\DriverNotSupprtedException.class
+wait\WaitUtil.class
+configuration\ConfigReader.class
+exceptions\ElementNotFoundException.class
+models\UserModel.class
 services\CreateAccountService.class
+exceptions\FrameworkException.class

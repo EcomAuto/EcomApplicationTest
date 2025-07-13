@@ -8,7 +8,11 @@ import driver.DriverFactory;
 
 public class BaseTest {
     protected WebDriver driver;
-
+    
+    public WebDriver getDriver() {
+        return driver;
+    }
+    
     @BeforeMethod
     public void setUp() {
         driver = DriverFactory.getDriver(ConfigReader.get("browser"));
@@ -16,8 +20,9 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void tearDown() {
+    public void tearDown() throws InterruptedException {
         if (driver != null) {
+        	Thread.sleep(2000);
             driver.quit();
         }
     }

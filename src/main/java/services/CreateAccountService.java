@@ -1,5 +1,6 @@
 package services;
 
+import models.UserModel;
 import pageClass.CreateAccountPage;
 
 public class CreateAccountService {
@@ -10,8 +11,12 @@ public class CreateAccountService {
         this.createAccountPage = createAccountPage;
     }
 
-    public void registerNewUser(String fname, String lname, String email, String password) {
-        createAccountPage.fillForm(fname, lname, email, password);
+    public void registerNewUser(UserModel user) {
+        createAccountPage.fillAccountForm(user);
         createAccountPage.submitForm();
+    }
+
+    public String getSuccessMessage() {
+        return createAccountPage.getSuccessMessage();
     }
 }

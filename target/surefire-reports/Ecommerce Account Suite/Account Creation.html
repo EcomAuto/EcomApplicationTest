@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Account Creation</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 10 23:59:22 IST 2025</td>
+<td>Started on:</td><td>Sun Jul 13 01:39:05 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>135 seconds (135282 ms)</td>
+<tr><td>Total time:</td><td>159 seconds (159061 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,63 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account Without Entering Confirm Password : Jack Black (jack.black1752350945984@mail.com), [Please enter the same value again.]</td>
+<td><div><pre>java.lang.AssertionError: Expected error not found: Please enter the same value again. expected [true] but found [false]
+	at assertions.AssertUtils.assertTrue(AssertUtils.java:14)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1482714257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1482714257'><pre>java.lang.AssertionError: Expected error not found: Please enter the same value again. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at assertions.AssertUtils.assertTrue(AssertUtils.java:14)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>28</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,20 +133,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.CreateAccountTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: tests.CreateAccountTest<br>Test method: Validate account creation<br>Parameters: John, Doe, john.doe3d6f6@test.com, Pass@12345</td>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account With Blank Spaces :         (    ), [This is a required field.]</td>
 <td></td>
-<td>6</td>
-<td>tests.CreateAccountTest@2dc54ad4</td></tr>
+<td>8</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
 <tr>
-<td title='tests.CreateAccountTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: tests.CreateAccountTest<br>Test method: Validate account creation<br>Parameters: Alice, Walker, alice.walkere5b66@test.com, Pass@12345</td>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [Minimum length of this field must be equal or greater than 8 symbols.]</td>
 <td></td>
-<td>52</td>
-<td>tests.CreateAccountTest@2dc54ad4</td></tr>
+<td>20</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
 <tr>
-<td title='tests.CreateAccountTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: tests.CreateAccountTest<br>Test method: Validate account creation<br>Parameters: Jane, Smith, jane.smithf585d@test.com, Pass@12345</td>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account With Blank Fields :   (), [This is a required field.]</td>
 <td></td>
-<td>70</td>
-<td>tests.CreateAccountTest@2dc54ad4</td></tr>
+<td>9</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
+<tr>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email address (Ex: johndoe@domain.com).]</td>
+<td></td>
+<td>20</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
+<tr>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already an account with this email address.]</td>
+<td></td>
+<td>24</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
+<tr>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs<br>Parameters: Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), [Please enter a valid email address (Ex: johndoe@domain.com)., Minimum length of this field must be equal or greater than 8 symbols.]</td>
+<td></td>
+<td>18</td>
+<td>testCases.CreateAccountTest@73e9cf30</td></tr>
 </table><p>
 </body>
 </html>

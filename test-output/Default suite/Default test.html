@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 10 23:26:19 IST 2025</td>
+<td>Started on:</td><td>Sun Jul 13 01:30:22 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>99 seconds (99580 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (187 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,20 +76,67 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.CreateAccountTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: tests.CreateAccountTest<br>Test method: Validate account creation<br>Parameters: John, Doe, john.doe01b5a@test.com, Pass@12345</td>
-<td></td>
-<td>13</td>
-<td>tests.CreateAccountTest@338c99c8</td></tr>
-<tr>
-<td title='tests.CreateAccountTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: tests.CreateAccountTest<br>Test method: Validate account creation<br>Parameters: Jane, Smith, jane.smitha8046@test.com, Pass@12345</td>
-<td></td>
-<td>29</td>
-<td>tests.CreateAccountTest@338c99c8</td></tr>
-<tr>
-<td title='tests.CreateAccountTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: tests.CreateAccountTest<br>Test method: Validate account creation<br>Parameters: Alice, Walker, alice.walker11058@test.com, Pass@12345</td>
-<td></td>
-<td>46</td>
-<td>tests.CreateAccountTest@338c99c8</td></tr>
+<td title='testCases.CreateAccountTest.testNegativeAccountCreation()'><b>testNegativeAccountCreation</b><br>Test class: testCases.CreateAccountTest<br>Test method: Verify error messages for invalid user registration inputs</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void testCases.CreateAccountTest.testNegativeAccountCreation(java.lang.String,models.UserModel,java.util.List)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testNegativeAccountCreation([java.lang.String arg0, models.UserModel arg1, java.util.List&lt;java.lang.String&gt; arg2])
+Arguments: [(models.UserModel)   (),(java.util.ImmutableCollections$List12) [This is a required field.]]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:918)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace94830685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace94830685'><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void testCases.CreateAccountTest.testNegativeAccountCreation(java.lang.String,models.UserModel,java.util.List)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testNegativeAccountCreation([java.lang.String arg0, models.UserModel arg1, java.util.List&lt;java.lang.String&gt; arg2])
+Arguments: [(models.UserModel)   (),(java.util.ImmutableCollections$List12) [This is a required field.]]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:918)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testCases.CreateAccountTest@2c78d320</td></tr>
 </table><p>
 </body>
 </html>

@@ -3,7 +3,11 @@
 <suite name="Ecommerce Account Suite" verbose="1" parallel="false">
   <test thread-count="5" name="Account Creation">
     <classes>
-        <class name="tests.CreateAccountTest" />
+        <class name="testCases.CreateAccountTest">
+        <methods>
+          <include name="testNegativeAccountCreation"/>
+        </methods>
+        </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
