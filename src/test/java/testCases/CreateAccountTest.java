@@ -22,9 +22,11 @@ public class CreateAccountTest extends BaseTest {
     @Description("Verify Create Account using Valid Credentials")
     @Test(dataProvider = "accountData", dataProviderClass = AccountDataProvider.class, description = "Validate account creation")
     public void verifyAccountCreation(String useCase,String fname, String lname, String email, String password) {
+//    	Logger logger = LogUtil.getTestCaseLogger("CreateAccountTest", "verifyAccountCreation");
         driver.get(ConfigReader.get("createAccountUrl"));
 
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
+        logger.info("Starting valid account test with user input.");
         CreateAccountService service = new CreateAccountService(createAccountPage);
         UserModel user = new UserModel(useCase,fname, lname, email, password);
         service.registerNewUser(user);
@@ -41,8 +43,10 @@ public class CreateAccountTest extends BaseTest {
     @Test(dataProvider = "invalidUserData", dataProviderClass = AccountDataProvider.class,
             description = "Verify error messages for invalid user registration inputs")
       public void testNegativeAccountCreation(UserModel user, List<String> expectedErrors) {
+//    	Logger logger = LogUtil.getLogger("CreateAccountTest", "testNegativeAccountCreation");
     	driver.get(ConfigReader.get("createAccountUrl"));
     	CreateAccountPage page = new CreateAccountPage(driver);
+    	logger.info("Starting invalid account test with blank fields.");
         page.fillAccountForm(user);
         page.submitForm();
 

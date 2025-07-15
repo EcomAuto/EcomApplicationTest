@@ -2,9 +2,11 @@ driver\DriverFactory.class
 factory\PageFactoryManager.class
 pageClass\CreateAccountPage.class
 exceptions\DriverNotSupprtedException.class
+logsUtil\LogUtil.class
 wait\WaitUtil.class
 configuration\ConfigReader.class
 exceptions\ElementNotFoundException.class
+logsUtil\CleanupUtil.class
 models\UserModel.class
 services\CreateAccountService.class
 exceptions\FrameworkException.class

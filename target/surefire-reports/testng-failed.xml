@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testNegativeAccountCreation" invocation-numbers="3"/>
+          <include name="testNegativeAccountCreation" invocation-numbers="3 4 5"/>
         </methods>
       </class> <!-- testCases.CreateAccountTest -->
     </classes>
