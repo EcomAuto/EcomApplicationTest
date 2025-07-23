@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.CreateAccountTest">
+      <class name="testCases.LoginTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testNegativeAccountCreation" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="cleanAllureFolder"/>
+          <include name="testValidLogin" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testCases.CreateAccountTest -->
+      </class> <!-- testCases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

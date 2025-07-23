@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1027.462" tests="7" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="732.061" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="F:\ChromeDriver\138\chromedriver-win64\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-17.0.11.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jyoti Prakash Mishra\AppData\Local\Temp\surefire15287846544575549048\surefirebooter-20250713223302292_3.jar C:\Users\Jyoti Prakash Mishra\AppData\Local\Temp\surefire15287846544575549048 2025-07-13T22-33-02_020-jvmRun1 surefire-20250713223302292_1tmp surefire_0-20250713223302292_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jyoti Prakash Mishra\AppData\Local\Temp\surefire6619090407146847755\surefirebooter-20250721233524943_3.jar C:\Users\Jyoti Prakash Mishra\AppData\Local\Temp\surefire6619090407146847755 2025-07-21T23-35-24_661-jvmRun1 surefire-20250721233524943_1tmp surefire_0-20250721233524943_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\target\test-classes;F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\target\classes;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Jyoti Prakash Mishra\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jyoti Prakash Mishra\AppData\Local\Temp\surefire15287846544575549048\surefirebooter-20250713223302292_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jyoti Prakash Mishra\AppData\Local\Temp\surefire6619090407146847755\surefirebooter-20250721233524943_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+9-LTS"/>
@@ -59,46 +59,35 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testNegativeAccountCreation[Creating Account With Blank Fields :   (), [This is a required field.]](1)" classname="testCases.CreateAccountTest" time="11.304">
-    <system-out><![CDATA[Asserting True: Expected error not found: This is a required field.
+  <testcase name="testNegativeAccountCreation[Creating Account With Blank Fields :   (), [This is a required field.]](1)" classname="testCases.CreateAccountTest" time="140.656">
+    <system-out><![CDATA[23:35:26 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:35:28 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:35:28 INFO  testNegativeAccountCreation - Starting test case...
+Asserting True: Expected error not found: This is a required field.
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jul 13, 2025 10:33:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 21, 2025 11:35:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="testNegativeAccountCreation[Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email address (Ex: johndoe@domain.com).]](2)" classname="testCases.CreateAccountTest" time="41.147">
-    <system-out><![CDATA[Asserting True: Expected error not found: Please enter a valid email address (Ex: johndoe@domain.com).
-]]></system-out>
-    <system-err><![CDATA[Jul 13, 2025 10:33:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
-]]></system-err>
-  </testcase>
-  <testcase name="testNegativeAccountCreation[Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [Minimum length of this field must be equal or greater than 8 symbols.]](3)" classname="testCases.CreateAccountTest" time="45.79">
-    <system-out><![CDATA[Asserting True: Expected error not found: Minimum length of this field must be equal or greater than 8 symbols.
-]]></system-out>
-    <system-err><![CDATA[Jul 13, 2025 10:34:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
-]]></system-err>
-  </testcase>
-  <testcase name="testNegativeAccountCreation[Creating Account Without Entering Confirm Password : Jack Black (jack.black1752426183405@mail.com), [Please enter the same value again.]](4)" classname="testCases.CreateAccountTest" time="180.025">
-    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [75632c666098141a879ed7dfa15eec92, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52632/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 75632c666098141a879ed7dfa15eec92" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="testNegativeAccountCreation[Creating Account With In-Valid Email-Id : John Doe (invalidemail@), [Please enter a valid email address (Ex: johndoe@domain.com).]](2)" classname="testCases.CreateAccountTest" time="180.045">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [de2f5487c8237c528fe8fd51cc541664, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: de2f5487c8237c528fe8fd51cc541664" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 java.util.concurrent.TimeoutException
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [75632c666098141a879ed7dfa15eec92, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52632/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 75632c666098141a879ed7dfa15eec92
+Command: [de2f5487c8237c528fe8fd51cc541664, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de2f5487c8237c528fe8fd51cc541664
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,55 +100,50 @@ Session ID: 75632c666098141a879ed7dfa15eec92
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
 Caused by: java.util.concurrent.TimeoutException
 	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
+	... 3 more
 ]]></failure>
-    <system-err><![CDATA[Jul 13, 2025 10:34:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-out><![CDATA[23:37:49 INFO  testNegativeAccountCreation - Browser closed.
+23:37:49 INFO  testNegativeAccountCreation - ==== Finished Test: CreateAccountTest.testNegativeAccountCreation ====
+
+Allure results cleaned successfully.
+23:37:49 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:37:50 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:37:50 INFO  testNegativeAccountCreation - Starting test case...
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2025 11:37:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="testNegativeAccountCreation[Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already an account with this email address.]](5)" classname="testCases.CreateAccountTest" time="180.011">
-    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9f09c63c708b26fe7cb3e25087303096, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52685/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9f09c63c708b26fe7cb3e25087303096" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f09c63c708b26fe7cb3e25087303096, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52685/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f09c63c708b26fe7cb3e25087303096
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
+  <testcase name="testNegativeAccountCreation[Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com), [Minimum length of this field must be equal or greater than 8 symbols.]](3)" classname="testCases.CreateAccountTest" time="24.024">
+    <system-out><![CDATA[[FAILED] Screenshot saved at: F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\screenshots\testNegativeAccountCreation_20250721_234050.png
+23:42:51 INFO  testNegativeAccountCreation - Browser closed.
+23:42:51 INFO  testNegativeAccountCreation - ==== Finished Test: CreateAccountTest.testNegativeAccountCreation ====
+
+Allure results cleaned successfully.
+23:42:51 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:42:52 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:42:52 INFO  testNegativeAccountCreation - Starting test case...
+Asserting True: Expected error not found: Minimum length of this field must be equal or greater than 8 symbols.
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2025 11:42:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="testNegativeAccountCreation[Creating Account Without Entering Confirm Password : Jack Black (jack.black1753121126110@mail.com), [Please enter the same value again.]](4)" classname="testCases.CreateAccountTest" time="111.666">
+    <failure message="Expected error not found: Please enter the same value again. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected error not found: Please enter the same value again. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at assertions.AssertUtils.assertTrue(AssertUtils.java:14)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -172,109 +156,64 @@ Session ID: 9f09c63c708b26fe7cb3e25087303096
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 ]]></failure>
-    <system-out><![CDATA[[FAILED] Screenshot saved at: F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\screenshots\testNegativeAccountCreation_20250713_223750.png
+    <system-out><![CDATA[23:43:17 INFO  testNegativeAccountCreation - Browser closed.
+23:43:17 INFO  testNegativeAccountCreation - ==== Finished Test: CreateAccountTest.testNegativeAccountCreation ====
+
+Allure results cleaned successfully.
+23:43:17 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:43:18 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:43:18 INFO  testNegativeAccountCreation - Starting test case...
+Asserting True: Expected error not found: Please enter the same value again.
 ]]></system-out>
-    <system-err><![CDATA[Jul 13, 2025 10:39:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 21, 2025 11:43:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="testNegativeAccountCreation[Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), [Please enter a valid email address (Ex: johndoe@domain.com)., Minimum length of this field must be equal or greater than 8 symbols.]](6)" classname="testCases.CreateAccountTest" time="180.018">
-    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b4f644ac91cd7f782990d5009445a8bc, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52761/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b4f644ac91cd7f782990d5009445a8bc" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f644ac91cd7f782990d5009445a8bc, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52761/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f644ac91cd7f782990d5009445a8bc
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-]]></failure>
-    <system-out><![CDATA[[FAILED] Screenshot saved at: F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\screenshots\testNegativeAccountCreation_20250713_224252.png
+  <testcase name="testNegativeAccountCreation[Creating Account With Existing Account : Existing User (existing.user@test.com), [There is already an account with this email address.]](5)" classname="testCases.CreateAccountTest" time="22.481">
+    <system-out><![CDATA[[FAILED] Screenshot saved at: F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\screenshots\testNegativeAccountCreation_20250721_234510.png
+23:45:11 INFO  testNegativeAccountCreation - Browser closed.
+23:45:11 INFO  testNegativeAccountCreation - ==== Finished Test: CreateAccountTest.testNegativeAccountCreation ====
+
+Allure results cleaned successfully.
+23:45:11 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:45:12 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:45:12 INFO  testNegativeAccountCreation - Starting test case...
+Asserting True: Expected error not found: There is already an account with this email address.
 ]]></system-out>
-    <system-err><![CDATA[Jul 13, 2025 10:44:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 21, 2025 11:45:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>
-  <testcase name="testNegativeAccountCreation[Creating Account With Blank Spaces :         (    ), [This is a required field.]](7)" classname="testCases.CreateAccountTest" time="12.25">
-    <system-out><![CDATA[[FAILED] Screenshot saved at: F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\screenshots\testNegativeAccountCreation_20250713_224755.png
+  <testcase name="testNegativeAccountCreation[Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format), [Please enter a valid email address (Ex: johndoe@domain.com)., Minimum length of this field must be equal or greater than 8 symbols.]](6)" classname="testCases.CreateAccountTest" time="81.434">
+    <system-out><![CDATA[23:45:35 INFO  testNegativeAccountCreation - Browser closed.
+23:45:35 INFO  testNegativeAccountCreation - ==== Finished Test: CreateAccountTest.testNegativeAccountCreation ====
+
+Allure results cleaned successfully.
+23:45:35 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:45:36 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:45:36 INFO  testNegativeAccountCreation - Starting test case...
+Asserting True: Expected error not found: Please enter a valid email address (Ex: johndoe@domain.com).
+Asserting True: Expected error not found: Minimum length of this field must be equal or greater than 8 symbols.
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2025 11:45:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="testNegativeAccountCreation[Creating Account With Blank Spaces :         (    ), [This is a required field.]](7)" classname="testCases.CreateAccountTest" time="34.557">
+    <system-out><![CDATA[23:47:00 INFO  testNegativeAccountCreation - Browser closed.
+23:47:00 INFO  testNegativeAccountCreation - ==== Finished Test: CreateAccountTest.testNegativeAccountCreation ====
+
+Allure results cleaned successfully.
+23:47:00 INFO  testNegativeAccountCreation - ==== Starting Test: CreateAccountTest.testNegativeAccountCreation ====
+23:47:01 INFO  testNegativeAccountCreation - Browser launched and navigated to homepage.
+23:47:01 INFO  testNegativeAccountCreation - Starting test case...
 Asserting True: Expected error not found: This is a required field.
 ]]></system-out>
-    <system-err><![CDATA[Jul 13, 2025 10:49:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 21, 2025 11:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>

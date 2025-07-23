@@ -1,7 +1,10 @@
 base\BaseTest.class
 utils\AccountDataProvider.class
 utils\DataGenerator.class
+utils\LoginDataProvider.class
 assertions\AssertUtils.class
 testCases\CreateAccountTest.class
+testCases\LoginTest.class
+utils\AllureCleaner.class
 utils\ScreenshotUtil.class
 listeners\ScreenshotListener.class

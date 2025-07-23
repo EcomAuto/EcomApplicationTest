@@ -6,7 +6,11 @@ import java.time.Duration;
 
 public class WaitUtil {
 
-    public static WebElement waitForVisibility(WebDriver driver, WebElement element, int timeoutSeconds) {
+    public WaitUtil(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static WebElement waitForVisibility(WebDriver driver, WebElement element, int timeoutSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutSeconds));
         return wait.until(ExpectedConditions.visibilityOf(element));
     }

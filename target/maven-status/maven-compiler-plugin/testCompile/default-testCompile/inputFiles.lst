@@ -1,7 +1,10 @@
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\assertions\AssertUtils.java
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\utils\ScreenshotUtil.java
+F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\testCases\LoginTest.java
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\utils\DataGenerator.java
+F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\utils\AllureCleaner.java
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\utils\AccountDataProvider.java
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\listeners\ScreenshotListener.java
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\testCases\CreateAccountTest.java
+F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\utils\LoginDataProvider.java
 F:\EcommerceApplicationTestD\AppSelTest\EcommerceApplication\src\test\java\base\BaseTest.java

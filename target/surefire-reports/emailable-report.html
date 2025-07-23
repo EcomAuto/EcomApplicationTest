@@ -9,85 +9,45 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Ecommerce Account Suite</th></tr>
-<tr><td><a href="#t0">Account Creation</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">1,026,570</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Account Creation</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">731,256</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ecommerce Account Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Account Creation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">testCases.CreateAccountTest</td><td><a href="#m0">testNegativeAccountCreation</a></td><td rowspan="3">1752426592759</td><td rowspan="3">180021</td></tr><tr class="failedeven"><td><a href="#m1">testNegativeAccountCreation</a></td></tr><tr class="failedeven"><td><a href="#m2">testNegativeAccountCreation</a></td></tr><tr><th colspan="4">Account Creation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testCases.CreateAccountTest</td><td><a href="#m3">testNegativeAccountCreation</a></td><td rowspan="4">1752426186174</td><td rowspan="4">11355</td></tr><tr class="passedeven"><td><a href="#m4">testNegativeAccountCreation</a></td></tr><tr class="passedeven"><td><a href="#m5">testNegativeAccountCreation</a></td></tr><tr class="passedeven"><td><a href="#m6">testNegativeAccountCreation</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ecommerce Account Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Account Creation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testCases.CreateAccountTest</td><td><a href="#m0">testNegativeAccountCreation</a></td><td rowspan="2">1753121270773</td><td rowspan="2">180040</td></tr><tr class="failedeven"><td><a href="#m1">testNegativeAccountCreation</a></td></tr><tr><th colspan="4">Account Creation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">testCases.CreateAccountTest</td><td><a href="#m2">testNegativeAccountCreation</a></td><td rowspan="5">1753121736648</td><td rowspan="5">81450</td></tr><tr class="passedeven"><td><a href="#m3">testNegativeAccountCreation</a></td></tr><tr class="passedeven"><td><a href="#m4">testNegativeAccountCreation</a></td></tr><tr class="passedeven"><td><a href="#m5">testNegativeAccountCreation</a></td></tr><tr class="passedeven"><td><a href="#m6">testNegativeAccountCreation</a></td></tr></tbody>
 </table>
-<h2>Account Creation</h2><h3 id="m0">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With Existing Account : Existing User (existing.user@test.com)</td><td>[There is already an account with this email address.]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+<h2>Account Creation</h2><h3 id="m0">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With In-Valid Email-Id : John Doe (invalidemail@)</td><td>[Please enter a valid email address (Ex: johndoe@domain.com).]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f09c63c708b26fe7cb3e25087303096, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52685/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f09c63c708b26fe7cb3e25087303096
+Command: [de2f5487c8237c528fe8fd51cc541664, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de2f5487c8237c528fe8fd51cc541664
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
 Caused by: java.util.concurrent.TimeoutException
 	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	... 3 more
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account Without Entering Confirm Password : Jack Black (jack.black1753121126110@mail.com)</td><td>[Please enter the same value again.]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Expected error not found: Please enter the same value again. expected [true] but found [false]
+	at assertions.AssertUtils.assertTrue(AssertUtils.java:14)
+	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:63)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format)</td><td>[Please enter a valid email address (Ex: johndoe@domain.com)., Minimum length of this field must be equal or greater than 8 symbols.]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f644ac91cd7f782990d5009445a8bc, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52761/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f644ac91cd7f782990d5009445a8bc
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account Without Entering Confirm Password : Jack Black (jack.black1752426183405@mail.com)</td><td>[Please enter the same value again.]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [75632c666098141a879ed7dfa15eec92, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52632/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 75632c666098141a879ed7dfa15eec92
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-	at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With Invalid emailId and Password less than 8 Characters : !@# $%^ (wrong@format)</td><td>[Please enter a valid email address (Ex: johndoe@domain.com)., Minimum length of this field must be equal or greater than 8 symbols.]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With Blank Fields :   ()</td><td>[This is a required field.]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With In-Valid Email-Id : John Doe (invalidemail@)</td><td>[Please enter a valid email address (Ex: johndoe@domain.com).]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com)</td><td>[Minimum length of this field must be equal or greater than 8 symbols.]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With In-Valid Password Of Length Less Than 8 : Jane Smith (jane.smith@test.com)</td><td>[Minimum length of this field must be equal or greater than 8 symbols.]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With Existing Account : Existing User (existing.user@test.com)</td><td>[There is already an account with this email address.]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">testCases.CreateAccountTest#testNegativeAccountCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Creating Account With Blank Spaces :         (    )</td><td>[This is a required field.]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

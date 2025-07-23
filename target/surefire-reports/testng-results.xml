@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="4" failed="3" skipped="0">
+<testng-results ignored="1" total="8" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-13T22:33:03 IST" name="Ecommerce Account Suite" finished-at="2025-07-13T22:50:09 IST" duration-ms="1026570">
+  <suite started-at="2025-07-21T23:35:26 IST" name="Ecommerce Account Suite" finished-at="2025-07-21T23:47:37 IST" duration-ms="731256">
     <groups>
     </groups>
-    <test started-at="2025-07-13T22:33:03 IST" name="Account Creation" finished-at="2025-07-13T22:50:09 IST" duration-ms="1026570">
+    <test started-at="2025-07-21T23:35:26 IST" name="Account Creation" finished-at="2025-07-21T23:47:37 IST" duration-ms="731256">
       <class name="testCases.CreateAccountTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:33:03 IST" name="setUp" finished-at="2025-07-13T22:33:06 IST" duration-ms="2630" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:35:26 IST" name="setUp" finished-at="2025-07-21T23:35:28 IST" duration-ms="1974" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:33:06 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:33:17 IST" duration-ms="11355" status="PASS">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:35:28 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:37:48 IST" duration-ms="140728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,29 +34,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:33:17 IST" name="tearDown" finished-at="2025-07-13T22:33:18 IST" duration-ms="529" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:37:48 IST" name="tearDown" finished-at="2025-07-21T23:37:49 IST" duration-ms="501" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:33:18 IST" name="setUp" finished-at="2025-07-13T22:33:19 IST" duration-ms="1174" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:37:49 IST" name="setUp" finished-at="2025-07-21T23:37:50 IST" duration-ms="1283" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:33:19 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:34:00 IST" duration-ms="41154" status="PASS">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:37:50 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:40:50 IST" duration-ms="180040" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -69,32 +69,81 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de2f5487c8237c528fe8fd51cc541664, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de2f5487c8237c528fe8fd51cc541664]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de2f5487c8237c528fe8fd51cc541664, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de2f5487c8237c528fe8fd51cc541664
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:34:00 IST" name="tearDown" finished-at="2025-07-13T22:34:01 IST" duration-ms="1510" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:42:51 IST" name="tearDown" finished-at="2025-07-21T23:42:51 IST" duration-ms="568" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=FAILURE method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:34:01 IST" name="setUp" finished-at="2025-07-13T22:34:02 IST" duration-ms="1051" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:42:51 IST" name="setUp" finished-at="2025-07-21T23:42:52 IST" duration-ms="1006" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:34:02 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:34:48 IST" duration-ms="45804" status="PASS">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:42:52 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:43:16 IST" duration-ms="24043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,33 +159,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:34:48 IST" name="tearDown" finished-at="2025-07-13T22:34:49 IST" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:43:16 IST" name="tearDown" finished-at="2025-07-21T23:43:17 IST" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:34:49 IST" name="setUp" finished-at="2025-07-13T22:34:50 IST" duration-ms="1042" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:43:17 IST" name="setUp" finished-at="2025-07-21T23:43:18 IST" duration-ms="1029" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:34:50 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:37:50 IST" duration-ms="180025" status="FAIL">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:43:18 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:45:10 IST" duration-ms="111677" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Creating Account Without Entering Confirm Password : Jack Black (jack.black1752426183405@mail.com)]]>
+                <![CDATA[Creating Account Without Entering Confirm Password : Jack Black (jack.black1753121126110@mail.com)]]>
               </value>
             </param>
             <param index="1">
@@ -145,31 +194,17 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [75632c666098141a879ed7dfa15eec92, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52632/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 75632c666098141a879ed7dfa15eec92]]>
+              <![CDATA[Expected error not found: Please enter the same value again. expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [75632c666098141a879ed7dfa15eec92, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52632/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 75632c666098141a879ed7dfa15eec92
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
+              <![CDATA[java.lang.AssertionError: Expected error not found: Please enter the same value again. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at assertions.AssertUtils.assertTrue(AssertUtils.java:14)
+at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -182,63 +217,38 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:39:51 IST" name="tearDown" finished-at="2025-07-13T22:39:51 IST" duration-ms="509" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:45:10 IST" name="tearDown" finished-at="2025-07-21T23:45:11 IST" duration-ms="586" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=FAILURE method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=FAILURE method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:39:51 IST" name="setUp" finished-at="2025-07-13T22:39:52 IST" duration-ms="1094" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:45:11 IST" name="setUp" finished-at="2025-07-21T23:45:12 IST" duration-ms="1044" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:39:52 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:42:52 IST" duration-ms="180021" status="FAIL">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:45:12 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:45:35 IST" duration-ms="22497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,100 +261,32 @@ at java.base/java.lang.Thread.run(Thread.java:840)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f09c63c708b26fe7cb3e25087303096, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52685/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f09c63c708b26fe7cb3e25087303096]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f09c63c708b26fe7cb3e25087303096, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52685/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f09c63c708b26fe7cb3e25087303096
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:44:53 IST" name="tearDown" finished-at="2025-07-13T22:44:53 IST" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:45:35 IST" name="tearDown" finished-at="2025-07-21T23:45:35 IST" duration-ms="631" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=FAILURE method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:44:53 IST" name="setUp" finished-at="2025-07-13T22:44:54 IST" duration-ms="1067" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:45:35 IST" name="setUp" finished-at="2025-07-21T23:45:36 IST" duration-ms="967" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:44:55 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:47:55 IST" duration-ms="180018" status="FAIL">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:45:36 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:46:58 IST" duration-ms="81450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,100 +299,32 @@ at java.base/java.lang.Thread.run(Thread.java:840)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f644ac91cd7f782990d5009445a8bc, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52761/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f644ac91cd7f782990d5009445a8bc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f644ac91cd7f782990d5009445a8bc, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\JYOTIP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52761/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f644ac91cd7f782990d5009445a8bc
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-at testCases.CreateAccountTest.testNegativeAccountCreation(CreateAccountTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:49:55 IST" name="tearDown" finished-at="2025-07-13T22:49:55 IST" duration-ms="493" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:46:58 IST" name="tearDown" finished-at="2025-07-21T23:47:00 IST" duration-ms="2075" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=FAILURE method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:49:55 IST" name="setUp" finished-at="2025-07-13T22:49:57 IST" duration-ms="1124" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:47:00 IST" name="setUp" finished-at="2025-07-21T23:47:01 IST" duration-ms="1032" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:49:57 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-13T22:50:09 IST" duration-ms="12255" status="PASS">
+        <test-method signature="testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:47:01 IST" name="testNegativeAccountCreation" description="Verify error messages for invalid user registration inputs" data-provider="invalidUserData" finished-at="2025-07-21T23:47:35 IST" duration-ms="34549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -466,11 +340,11 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeAccountCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@3f6f6701]" started-at="2025-07-13T22:50:09 IST" name="tearDown" finished-at="2025-07-13T22:50:09 IST" duration-ms="567" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccountTest@534a5a98]" started-at="2025-07-21T23:47:35 IST" name="tearDown" finished-at="2025-07-21T23:47:37 IST" duration-ms="1515" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@3f6f6701] output={null}]]]>
+                <![CDATA[[TestResult name=testNegativeAccountCreation status=SUCCESS method=CreateAccountTest.testNegativeAccountCreation(models.UserModel,java.util.List)[pri:0, instance:testCases.CreateAccountTest@534a5a98] output={null}]]]>
               </value>
             </param>
           </params>

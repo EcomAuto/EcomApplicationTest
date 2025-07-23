@@ -17,12 +17,15 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 import configuration.ConfigReader;
 import driver.DriverFactory;
 import io.qameta.allure.Allure;
 import logsUtil.CleanupUtil;
 import logsUtil.LogUtil;
+import util.TestStepTracker;
+import utils.AllureCleaner;
 
 public class BaseTest {
     protected WebDriver driver;
@@ -33,6 +36,12 @@ public class BaseTest {
     }
     
     private static final ThreadLocal<String> logFilePathThreadLocal = new ThreadLocal<>();
+    
+    @BeforeTest
+    public void cleanAllureFolder() {
+        AllureCleaner.cleanAllureResults();
+        TestStepTracker.reset();
+    }
     
     @BeforeMethod
     public void setUp(ITestResult result) {

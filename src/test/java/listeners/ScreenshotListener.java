@@ -25,10 +25,12 @@ public class ScreenshotListener extends BaseTest implements ITestListener {
         File logFile = new File(logPath);
         if (logFile.exists()) {
             try (FileInputStream fis = new FileInputStream(logFile)) {
-                Allure.addAttachment("Log - " + methodName, fis);
+                Allure.addAttachment("Execution Log - " + methodName, fis);
             } catch (Exception e) {
-                e.printStackTrace();
+                System.err.println("Failed to attach log: " + e.getMessage());
             }
+        } else {
+            System.err.println("Log file not found: " + logPath);
         }
         try {
 			captureScreenshotIfDriverExists(result, "FAILED");

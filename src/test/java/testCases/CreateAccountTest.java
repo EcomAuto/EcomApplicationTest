@@ -1,11 +1,14 @@
 package testCases;
 
 import io.qameta.allure.*;
+import logsUtil.LogUtil;
 import models.UserModel;
 import pageClass.CreateAccountPage;
 import services.CreateAccountService;
 import utils.AccountDataProvider;
 import java.util.List;
+
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import assertions.AssertUtils;
@@ -22,7 +25,7 @@ public class CreateAccountTest extends BaseTest {
     @Description("Verify Create Account using Valid Credentials")
     @Test(dataProvider = "accountData", dataProviderClass = AccountDataProvider.class, description = "Validate account creation")
     public void verifyAccountCreation(String useCase,String fname, String lname, String email, String password) {
-//    	Logger logger = LogUtil.getTestCaseLogger("CreateAccountTest", "verifyAccountCreation");
+    	Logger logger = LogUtil.getTestCaseLogger("CreateAccountTest", "verifyAccountCreation");
         driver.get(ConfigReader.get("createAccountUrl"));
 
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
@@ -43,10 +46,10 @@ public class CreateAccountTest extends BaseTest {
     @Test(dataProvider = "invalidUserData", dataProviderClass = AccountDataProvider.class,
             description = "Verify error messages for invalid user registration inputs")
       public void testNegativeAccountCreation(UserModel user, List<String> expectedErrors) {
-//    	Logger logger = LogUtil.getLogger("CreateAccountTest", "testNegativeAccountCreation");
+    	Logger logger = LogUtil.getTestCaseLogger(getClass().getSimpleName(), "testNegativeAccountCreation");
+    	logger.info("Starting test case...");
     	driver.get(ConfigReader.get("createAccountUrl"));
     	CreateAccountPage page = new CreateAccountPage(driver);
-    	logger.info("Starting invalid account test with blank fields.");
         page.fillAccountForm(user);
         page.submitForm();
 
