@@ -40,12 +40,12 @@ public class BaseTest {
     @BeforeTest
     public void cleanAllureFolder() {
         AllureCleaner.cleanAllureResults();
-        TestStepTracker.reset();
     }
     
     @BeforeMethod
     public void setUp(ITestResult result) {
     	CleanupUtil.deleteOldLogs();
+    	TestStepTracker.reset();
         String className = result.getTestClass().getRealClass().getSimpleName();
         String methodName = result.getMethod().getMethodName();
         logger = LogUtil.getTestCaseLogger(className, methodName);

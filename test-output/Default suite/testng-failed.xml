@@ -8,7 +8,7 @@
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="cleanAllureFolder"/>
-          <include name="testValidLogin" invocation-numbers="0 1"/>
+          <include name="loginWithInvalidData" invocation-numbers="0 1 2 3 4 5 6"/>
         </methods>
       </class> <!-- testCases.LoginTest -->
     </classes>

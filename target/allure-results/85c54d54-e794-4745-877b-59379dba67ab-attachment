@@ -1,0 +1,32 @@
+22:33:27 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:33:29 INFO  loginWithInvalidData - Browser launched and navigated to homepage.
+22:34:10 INFO  loginWithInvalidData - Browser closed.
+22:34:10 INFO  loginWithInvalidData - ==== Finished Test: LoginTest.loginWithInvalidData ====
+
+22:34:10 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:34:11 INFO  loginWithInvalidData - Browser launched and navigated to homepage.
+22:34:36 INFO  loginWithInvalidData - Browser closed.
+22:34:36 INFO  loginWithInvalidData - ==== Finished Test: LoginTest.loginWithInvalidData ====
+
+22:34:36 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:34:37 INFO  loginWithInvalidData - Browser launched and navigated to homepage.
+22:36:10 INFO  loginWithInvalidData - Browser closed.
+22:36:10 INFO  loginWithInvalidData - ==== Finished Test: LoginTest.loginWithInvalidData ====
+
+22:36:10 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:36:11 INFO  loginWithInvalidData - Browser launched and navigated to homepage.
+22:41:12 INFO  loginWithInvalidData - Browser closed.
+22:41:12 INFO  loginWithInvalidData - ==== Finished Test: LoginTest.loginWithInvalidData ====
+
+22:41:12 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:41:13 INFO  loginWithInvalidData - Browser launched and navigated to homepage.
+22:41:26 INFO  loginWithInvalidData - Browser closed.
+22:41:26 INFO  loginWithInvalidData - ==== Finished Test: LoginTest.loginWithInvalidData ====
+
+22:41:26 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:41:27 INFO  loginWithInvalidData - Browser launched and navigated to homepage.
+22:48:20 INFO  loginWithInvalidData - Browser closed.
+22:48:20 INFO  loginWithInvalidData - ==== Finished Test: LoginTest.loginWithInvalidData ====
+
+22:48:20 INFO  loginWithInvalidData - ==== Starting Test: LoginTest.loginWithInvalidData ====
+22:48:21 INFO  loginWithInvalidData - Browser launched and navigated to homepage.

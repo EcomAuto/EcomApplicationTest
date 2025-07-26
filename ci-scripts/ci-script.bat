@@ -1,0 +1,9 @@
+@echo off
+echo Cleaning project...
+mvn clean
+
+echo Running tests...
+mvn test
+
+echo Generating Allure Report...
+call ci\generate-allure.bat

@@ -27,6 +27,9 @@ public class LoginPage extends BasePage {
     @FindBy(css = ".welcome-msg")
     private WebElement welcomeMsg;
     
+    @FindBy(css = "div.message-error > div")
+    private WebElement errorMessage;
+    
     @Step("Click On Sign-In to Navigate to SignIn Page")
     public void signInToPage() {
     	WaitUtil.waitForClickable(driver, signInUrl, 10).click();
@@ -50,6 +53,11 @@ public class LoginPage extends BasePage {
     @Step("Get welcome message")
     public String getWelcomeMessage() {
         return WaitUtil.waitForVisibility(driver, welcomeMsg, 10).getText();
+    }
+    
+    @Step("Get error message after entering invalid login credentials")
+    public String getErrorMessage() {
+        return errorMessage.getText().trim();
     }
 
     public void login(String email, String password) {

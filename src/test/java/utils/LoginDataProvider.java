@@ -1,6 +1,10 @@
 package utils;
 
+import java.util.List;
+
 import org.testng.annotations.DataProvider;
+
+import models.InvalidLoginModel;
 
 public class LoginDataProvider {
 
@@ -20,6 +24,13 @@ public class LoginDataProvider {
             {"Login With Valid Details For Person: Deepansh", "deepu12@gmail.com", "Deep@12345"},
             {"Login With Valid Details For Person: Anshul", "ans123@gmail.com", "Anshul@12345"}
         };
+    }
+	
+	@DataProvider(name = "excelInvalidLoginData")
+    public Object[][] getDataFromExcel() {
+        String path = "src/test/resources/testdata/LoginNegativeData.xlsx";
+        List<InvalidLoginModel> list = ExcelReaderUtil.readInvalidLoginData(path);
+        return list.stream().map(data -> new Object[]{data}).toArray(Object[][]::new);
     }
     
 }

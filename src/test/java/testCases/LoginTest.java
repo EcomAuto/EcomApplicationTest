@@ -7,12 +7,15 @@ import org.testng.annotations.Test;
 import assertions.AssertUtils;
 import base.BaseTest;
 import configuration.ConfigReader;
+import factory.PageFactoryManager;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
+import models.InvalidLoginModel;
 import models.UserModel;
 import pageClass.CreateAccountPage;
 import pageClass.LoginPage;
@@ -65,4 +68,36 @@ public class LoginTest extends BaseTest {
 		String actualTitle = loginPage.getPageTitle();
 		AssertUtils.assertEquals(actualTitle, "Customer Login", "Login Page Title Check");
 	}
+	
+	 @Story("Login with in-valid credentials")
+     @Severity(SeverityLevel.CRITICAL)
+     @Description("Negative login test")
+	 @Test(dataProvider = "excelInvalidLoginData", dataProviderClass = LoginDataProvider.class, description = "In-Validate Login credential")
+	    public void loginWithInvalidData(InvalidLoginModel data) {
+		    Allure.parameter("Email", data.getEmail());
+	        Allure.parameter("Password", data.getPassword());
+	        Allure.parameter("Expected Errors", data.getExpectedError());
+		    String uuid = UUID.randomUUID().toString();
+		    
+	        TestStepTracker.logStep(uuid+" : Open Login Page");
+	        driver.get(ConfigReader.get("baseUrl"));
+
+	        LoginPage loginPage = new LoginPage(driver);
+	        
+	        TestStepTracker.logStep(uuid+" : Navigate to SignIn Page");
+			loginPage.signInToPage();
+
+	        TestStepTracker.logStep(uuid+" : Enter Email - " + data.getEmail());
+	        loginPage.enterEmail(data.getEmail());
+
+	        TestStepTracker.logStep(uuid+" : Enter Password - " + data.getPassword());
+	        loginPage.enterPassword(data.getPassword());
+
+	        TestStepTracker.logStep(uuid+" : Click Sign In");
+	        loginPage.clickSignIn();
+
+	        TestStepTracker.logStep(uuid+" : Verify Error Message");
+	        String actualError = loginPage.getErrorMessage();
+	        AssertUtils.assertEquals(actualError, data.getExpectedError(), "Error message does not match");
+	    }
 }
