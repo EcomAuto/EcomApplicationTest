@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-creds', url: 'https://github.com/your-user/your-repo.git', branch: 'main'
+                git credentialsId: 'github-creds', url: 'https://github.com/EcomAuto/EcomApplicationTest.git', branch: 'main'
             }
         }
         stage('Cleanup') {
