@@ -1,48 +1,72 @@
 pipeline {
     agent any
 
-    environment {
-        JAVA_HOME = tool 'JDK17'
-        PATH = "${JAVA_HOME}\\bin;${env.PATH}"
+    tools {
+        maven 'Maven'     // Configure this name in Jenkins Global Tool Config
+        jdk 'JDK-17'      // Or JDK-11 or JDK-8 depending on your setup
+        allure 'Allure'   // Add this in Jenkins > Global Tool Config
     }
 
-    tools {
-        maven 'Maven4'
+    environment {
+        PATH = "${tool 'JDK-17'}/bin:${env.PATH}"
+    }
+
+    options {
+        timestamps()
+        skipDefaultCheckout(false)
     }
 
     triggers {
-        githubPush()
+        pollSCM('* * * * *') // Poll every minute (can be changed)
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-creds', url: 'https://github.com/EcomAuto/EcomApplicationTest.git', branch: 'main'
+                checkout scm
             }
         }
+
         stage('Cleanup') {
             steps {
-                bat 'ci\\cleanup.bat'
+                bat 'ci/cleanup.bat'
             }
         }
+
         stage('Run Tests') {
             steps {
-                bat 'ci\\ci-script.bat'
+                bat 'ci/ci-script.bat'
             }
         }
-        stage('Allure Report') {
+
+        stage('Generate Allure Report') {
             steps {
-                bat 'ci\\generate-allure.bat'
+                bat 'ci/generate-allure.bat'
+            }
+        }
+
+        stage('Archive Results') {
+            steps {
+                archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
+                junit '**/target/surefire-reports/*.xml'
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'target/allure-results']]
+                ])
             }
         }
     }
 
     post {
         always {
-            archiveArtifacts artifacts: '**/*.xlsx', allowEmptyArchive: true
-            archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
-
-            allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
+            echo 'Pipeline completed.'
+        }
+        failure {
+            echo 'Build failed!'
+        }
+        success {
+            echo 'Build succeeded!'
         }
     }
 }
