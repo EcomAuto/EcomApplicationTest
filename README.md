@@ -7,42 +7,41 @@ This is a **production-grade Selenium Test Automation Framework** designed for t
 ## Project Structure
 
 EcommerceApplication
+├── src
+│   ├── main
+│   │   └── java
+│   │       ├── configuration     # Environment configs
+│   │       ├── driver            # WebDriver setup
+│   │       ├── exceptions        # Custom exceptions
+│   │       ├── factory           # PageFactory manager
+│   │       ├── logsUtil          # Logger utils
+│   │       ├── models            # Test data models
+│   │       ├── pageClass         # Page Object classes (POM)
+│   │       ├── services          # UI helpers & actions
+│   │       ├── util              # Common utilities
+│   │       └── wait              # Custom WaitUtils
+│   └── resources                 # Optional main resources
 │
 ├── src
-│ ├── main
-│ │ ├── java
-│ │ │ ├── configuration # Environment configs
-│ │ │ ├── driver # WebDriver setup
-│ │ │ ├── exceptions # Custom exceptions
-│ │ │ ├── factory # PageFactory manager
-│ │ │ ├── logsUtil # Logger utils
-│ │ │ ├── models # Test data models
-│ │ │ ├── pageClass # Page Object classes (POM)
-│ │ │ ├── services # UI helpers & actions
-│ │ │ ├── util # Common utilities
-│ │ │ ├── wait # Custom WaitUtils
-│ │ └── resources # Optional main resources
-│ │
-│ ├── test
-│ │ ├── java
-│ │ │ ├── assertions # Custom assertion wrappers
-│ │ │ ├── base # Base test setup
-│ │ │ ├── listeners # TestNG/Allure listeners
-│ │ │ ├── testCases # Test classes (Create, Login, Welcome)
-│ │ │ ├── utils # Test-specific helpers
-│ │ └── resources
-│ │ ├── config # env.properties, browser config
-│ │ ├── testData # JSON/Excel test data
-│ │ └── log4j2.xml # Log4j2 config
+│   ├── test
+│   │   └── java
+│   │       ├── assertions        # Custom assertion wrappers
+│   │       ├── base              # Base test setup
+│   │       ├── listeners         # TestNG/Allure listeners
+│   │       ├── testCases         # Test classes (Create, Login, Welcome)
+│   │       └── utils             # Test-specific helpers
+│   └── resources
+│       ├── config                # env.properties, browser config
+│       ├── testData             # JSON/Excel test data
+│       └── log4j2.xml           # Log4j2 config
 │
-├── ci # CI scripts like ci-script.bat, generate-allure.bat
-├── logs # Per-test logs
-├── screenshots # Screenshots on failure
-├── testSuite_XML # testng.xml, Jenkinsfile
-├── target # Maven output
-├── pom.xml # Maven project file
-└── README.md # Project documentation
-
+├── ci                           # CI scripts like ci-script.bat, generate-allure.bat
+├── logs                         # Per-test logs
+├── screenshots                  # Screenshots on failure
+├── testSuite_XML                # testng.xml, Jenkinsfile
+├── target                       # Maven output
+├── pom.xml                      # Maven project file
+└── README.md                    # Project documentation
 
 ---
 
