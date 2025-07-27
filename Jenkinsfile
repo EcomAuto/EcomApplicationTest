@@ -52,7 +52,7 @@ pipeline {
                 junit '**/target/surefire-reports/*.xml'
                 allure([
                     includeProperties: false,
-                    jdk: '',
+                    jdk: 'JDK17',
                     results: [[path: 'target/allure-results']]
                 ])
             }
