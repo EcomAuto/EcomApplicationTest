@@ -6,6 +6,10 @@ This is a **production-grade Selenium Test Automation Framework** designed for t
 
 ## Project Structure
 
+<details> <summary><strong>Project Structure</strong></summary>
+bash
+Copy
+Edit
 EcommerceApplication
 ├── src
 │   ├── main
@@ -42,8 +46,7 @@ EcommerceApplication
 ├── target                       # Maven output
 ├── pom.xml                      # Maven project file
 └── README.md                    # Project documentation
-
----
+</details>
 
 ## Features
 
