@@ -7,6 +7,7 @@ pipeline {
         allure 'Allure'   // Add this in Jenkins > Global Tool Config
     }
 
+
     environment {
         PATH = "${tool 'JDK-17'}/bin:${env.PATH}"
     }
