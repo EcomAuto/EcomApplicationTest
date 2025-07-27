@@ -42,7 +42,6 @@ EcommerceApplication
 ├── target                       # Maven output
 ├── pom.xml                      # Maven project file
 └── README.md                    # Project documentation
-</details>
 ```
 ## Features
 
