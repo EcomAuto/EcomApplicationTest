@@ -6,10 +6,6 @@ This is a **production-grade Selenium Test Automation Framework** designed for t
 
 ## Project Structure
 ```
-<details> <summary><strong>Project Structure</strong></summary>
-bash
-Copy
-Edit
 EcommerceApplication
 ├── src
 │   ├── main
