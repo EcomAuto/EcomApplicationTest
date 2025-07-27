@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'     // Configure this name in Jenkins Global Tool Config
-        jdk 'JDK-17'      // Or JDK-11 or JDK-8 depending on your setup
+        maven 'Maven4'     // Configure this name in Jenkins Global Tool Config
+        jdk 'JDK17'      // Or JDK-11 or JDK-8 depending on your setup
         allure 'Allure'   // Add this in Jenkins > Global Tool Config
     }
 
