@@ -1,6 +1,6 @@
 # Ecommerce Web Application - Test Automation Framework
 
-This is a **production-grade Selenium Test Automation Framework** designed for testing an E-commerce website ([Magento Practice Site](https://magento.softwaretestingboard.com/)) using **Java, TestNG, Maven**, and **Page Object Model**. It supports **Allure reports**, **parallel execution**, **cross-browser testing**, and **CI integration via Jenkins**.
+This is a **production-grade Selenium Test Automation Framework** designed for testing an E-commerce website ([Magento Practice Site](https://magento.softwaretestingboard.com/)) using **Java, Selenium WebDriver, TestNG, Maven**, and **Page Object Model**. It supports **Allure reports**, **parallel execution**, **cross-browser testing**, and **CI integration via Jenkins**.
 
 ---
 
