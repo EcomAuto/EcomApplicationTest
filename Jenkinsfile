@@ -2,11 +2,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven4'     // Configure this name in Jenkins Global Tool Config
-        jdk 'JDK17'      // Or JDK-11 or JDK-8 depending on your setup
-        allure 'Allure'   // Add this in Jenkins > Global Tool Config
+        maven 'Maven4'
+        jdk 'JDK17'
     }
-
 
     environment {
         PATH = "${tool 'JDK17'}/bin:${env.PATH}"
@@ -18,7 +16,7 @@ pipeline {
     }
 
     triggers {
-        pollSCM('* * * * *') // Poll every minute (can be changed)
+        pollSCM('* * * * *')
     }
 
     stages {
@@ -40,19 +38,12 @@ pipeline {
             }
         }
 
-        stage('Generate Allure Report') {
-            steps {
-                bat 'ci/generate-allure.bat'
-            }
-        }
-
         stage('Archive Results') {
             steps {
                 archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
                 junit '**/target/surefire-reports/*.xml'
                 allure([
                     includeProperties: false,
-                    jdk: 'JDK17',
                     results: [[path: 'target/allure-results']]
                 ])
             }
