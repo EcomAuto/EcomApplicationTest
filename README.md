@@ -5,7 +5,7 @@ This is a **production-grade Selenium Test Automation Framework** designed for t
 ---
 
 ## Project Structure
-
+```
 <details> <summary><strong>Project Structure</strong></summary>
 bash
 Copy
@@ -47,7 +47,7 @@ EcommerceApplication
 ├── pom.xml                      # Maven project file
 └── README.md                    # Project documentation
 </details>
-
+```
 ## Features
 
 - 🔹 Selenium WebDriver with Java 17
