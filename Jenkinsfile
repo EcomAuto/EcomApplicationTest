@@ -22,17 +22,17 @@ pipeline {
         }
         stage('Cleanup') {
             steps {
-                bat 'ci\\cleanup.bat'
+                bat 'ci-scripts\\cleanup.bat'
             }
         }
         stage('Run Tests') {
             steps {
-                bat 'ci\\ci-script.bat'
+                bat 'ci-scripts\\ci-script.bat'
             }
         }
         stage('Allure Report') {
             steps {
-                bat 'ci\\generate-allure.bat'
+                bat 'ci-scripts\\generate-allure.bat'
             }
         }
     }
