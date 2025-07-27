@@ -9,7 +9,7 @@ pipeline {
 
 
     environment {
-        PATH = "${tool 'JDK-17'}/bin:${env.PATH}"
+        PATH = "${tool 'JDK17'}/bin:${env.PATH}"
     }
 
     options {
